@@ -1,0 +1,33 @@
+﻿[
+  {
+    "nodeProjection": {
+      "Movie": {
+        "label": "Movie",
+        "properties": {
+
+        }
+      },
+      "Person": {
+        "label": "Person",
+        "properties": {
+
+        }
+      }
+    },
+    "relationshipProjection": {
+      "ACTED_IN": {
+        "aggregation": "DEFAULT",
+        "orientation": "UNDIRECTED",
+        "indexInverse": false,
+        "properties": {
+
+        },
+        "type": "ACTED_IN"
+      }
+    },
+    "graphName": "betweennessGraph",
+    "nodeCount": 939,
+    "relationshipCount": 1690,
+    "projectMillis": 50
+  }
+]
